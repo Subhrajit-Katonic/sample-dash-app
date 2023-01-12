@@ -9,4 +9,4 @@ jobs:
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       with:
-        image: katonic/apps
+        image: katonic/apps:likelihood-loan-default-prediction
